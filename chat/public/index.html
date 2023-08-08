@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <script defer d src="https://chat-server-y3bn.onrender.com/socket.io/socket.io.js"></script>
+    <!-- defer is make the script to be loaded after the DOM gets loaded -->
+    <script defer src="/public/js/client.js"></script>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="/public/chat.png" alt="logo">
+        <h1>Welcome to Anonymous Chat App</h1>
+    </nav>
+    <div class="container">
+        <div class="message left">Start Messaging</div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit" >Send</button>
+        </form>
+    </div>
+        
+</body>
+</html>
